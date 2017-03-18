@@ -1,13 +1,4 @@
-/*
 
-My Custom JS
-============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
 
 $(function() {
 	
@@ -26,13 +17,22 @@ $(function() {
 	$('a.pop').popover();
 	
 	$('[rel="tooltip"]').tooltip();
+
+
+
+
+    $('#datetimepicker1').datetimepicker();
+      
+
+    moment().format('YYYY MM DD');
+
 	
 	
 });
 
 
-			<script type="text/javascript">
-           	$(function () {
-                $('#datetimepicker1').datetimepicker();
-           		 });
-        	</script>
+  
+
+
+          
+        
