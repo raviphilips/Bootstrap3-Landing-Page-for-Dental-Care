@@ -21,7 +21,7 @@ $(function() {
 
 
 
-    $('#datetimepicker1').datepicker();
+    $('#datetimepicker1').datetimepicker();
       
 
     moment().format('YYYY MM DD');
