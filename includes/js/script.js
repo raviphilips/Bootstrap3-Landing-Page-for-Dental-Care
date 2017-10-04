@@ -21,10 +21,14 @@ $(function() {
 
 
 
-    $('#datetimepicker1').datetimepicker();
+    $('#datetimepicker1').datetimepicker({
+    	format:'d.m.Y H:i',
+  	inline:true,
+  	lang:'ru'
+    });
       
 
-    moment().format('YYYY MM DD');
+   
 
 	
 	
